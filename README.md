@@ -1,5 +1,31 @@
 # Centralised API Authorisation
 
+## Project Status
+
+**Status:** Core implementation completed; security hardening and documentation improvements ongoing.
+
+### Implemented Features
+
+- JWT authentication and token validation
+- Token expiry, issuer, audience and signature validation
+- Role-Based Access Control (RBAC)
+- Centralised permission enforcement
+- FastAPI protected endpoints
+- HTTP 401 and 403 access-control responses
+- Automated unit and API integration tests
+
+### Test Results
+
+| Test Category | Tests Passed |
+|---|---:|
+| JWT Authentication | 3 |
+| RBAC Authorisation | 8 |
+| API Integration | 6 |
+| **Total** | **17** |
+
+All 17 automated tests passed in the local development environment.
+
+
 **A reusable authentication and role-based access control (RBAC) component for securing multiple API services.**
 
 **Project type:** Personal Cybersecurity Portfolio Project  
